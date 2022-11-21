@@ -24,7 +24,7 @@
 		},
 		"acf": {
 			"type": "object",
-			"description": "Registering an ACF block requires an additional \"acf\" object. See the guide at https://www.advancedcustomfields.com/resources/acf-blocks-with-block-json/ for more details.",
+			"description": "Properties specific to ACF blocks. See the guide at https://www.advancedcustomfields.com/resources/acf-blocks-with-block-json/ for more details.",
 			"properties": {
 				"mode": {
 					"description": "The display mode for your block. Available settings are “auto”, “preview” and “edit”. Defaults to “preview”",
