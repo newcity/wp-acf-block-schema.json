@@ -41,12 +41,10 @@
 				},
 				"renderTemplate": {
 					"type": "string",
-					"pattern": "^([A-Z]([a-zA-Z])*\\\\)*([a-zA-Z_]|::)+$",
 					"description": "The path to a template file used to render the block HTML. This can either be a relative path to a file based on where your block.json file is located, or an absolute path."
 				},
 				"renderCallback": {
 					"type": "string",
-					"pattern": "^([A-Z]([a-zA-Z])*\\\\)*([a-zA-Z_]|::)+$",
 					"description": "Instead of providing a render_template, a callback function name may be specified to output the block’s HTML. If using a static class method, include the full namespace in the string with escaped backslashes (e.g. \"NewCity\\\\NewCityBlocks\\\\Blocks\\\\CustomBlockClass::render\")"
 				},
 				"postTypes": {
